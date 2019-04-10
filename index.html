@@ -10,6 +10,9 @@
 	<link href='http://fonts.googleapis.com/css?family=BenchNine:300,400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	
+	<!-- ====================================================
+	header section -->
 	<header class="top-header">
 		<div class="container">
 			<div class="row">
@@ -21,6 +24,7 @@
 				<div class="col-md-7">
 					<nav class="navbar navbar-default">
 					  <div class="container-fluid nav-bar">
+
 					    <div class="navbar-header">
 					      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 					        <span class="sr-only">Toggle navigation</span>
@@ -34,16 +38,20 @@
 					      
 					      <ul class="nav navbar-nav navbar-right">
 					        <li><a class="menu active" href="#home" >Home</a></li>
-					        <li><a class="menu" href="#about">Compare</a></li>
-					        <li><a class="menu" href="#service">Plan Trip</a></li>
+					        <li><a class="menu" href="#compare">Compare</a></li>
+					        <li><a class="menu" href="#plan">Plan Trip </a></li>
+							  <li><a class="menu" href="#contact">Contact </a></li>
 					      </ul>
-					    </div>
-					  </div>
+					    </div><!-- /navbar-collapse -->
+					  </div><!-- / .container-fluid -->
 					</nav>
 				</div>
 			</div>
 		</div>
-	</header>
+	</header> <!-- end of header area -->
+
+			
+			
 
 			<section class="slider" id="home">
 				<div class="container-fluid">
@@ -51,36 +59,37 @@
 
 					    <div id="carouselHacked" class="carousel slide carousel-fade" data-ride="carousel">
 							<div class="header-backup"></div>
+					        <!-- Wrapper for slides -->
 					        <div class="carousel-inner" role="listbox">
 					            <div class="item active">
 					            	<img src="img/slide-one.jpg" alt="">
 					                <div class="carousel-caption">
-				               			<h1>Tax</h1>
-				               			<p>good business consulting service</p>
+				               			<h1>Transit Advisor</h1>
+				               			<p>Find & compare public transport modes</p>
 				               			<button>learn more</button>
 					                </div>
 					            </div>
 					            <div class="item">
-					            	<img src="img/slide-two.jpg" alt="">
+					            	<img src="img/slide-one.jpg" alt="">
 					                <div class="carousel-caption">
-				               			<h1>Financial</h1>
-				               			<p>good business consulting service</p>
+										<h1>Transit Advisor</h1>
+										<p>Find & compare public transport modes</p>
 				               			<button>learn more</button>
 					                </div>
 					            </div>
 					            <div class="item">
-					            	<img src="img/slide-three.jpg" alt="">
+					            	<img src="img/slide-one.jpg" alt="">
 					                <div class="carousel-caption">
-				               			<h1>Consulting</h1>
-				               			<p>good business consulting service</p>
+										<h1>Transit Advisor</h1>
+										<p>Find & compare public transport modes</p>
 				               			<button>learn more</button>
 					                </div>
 					            </div>
 					            <div class="item">
-					            	<img src="img/slide-four.jpg" alt="">
+					            	<img src="img/slide-one.jpg" alt="">
 					                <div class="carousel-caption">
-				               			<h1>Money</h1>
-				               			<p>good business consulting service</p>
+										<h1>Transit Advisor</h1>
+										<p>Find & compare public transport modes</p>
 				               			<button>learn more</button>
 					                </div>
 					            </div>
@@ -99,13 +108,24 @@
 
 					</div>
 				</div>
-			</section>
+			</section><!-- end of slider section -->
 
-			<section class="about text-center" id="Compare">
+
+			<!-- compare section -->
+			<section class="about text-center" id="compare">
 				<div class="container">
 					<div class="row">
-						<h2>Transport Modes</h2>
-						<h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h4>
+						<h2>Compare Transport Modes</h2>
+
+						<!-- start and destination -->
+						<div class="about-start_destination">
+
+							<div >
+
+
+							</div>
+
+						</div>
 
 						<div class="col-md-4 col-sm-6">
 							<div class="single-about-detail clearfix">
@@ -115,11 +135,14 @@
 
 								<div class="about-details">
 									<div class="pentagon-text">
-										<h1>T</h1>
+										<h1>B</h1>
 									</div>
-
-									<h3>Tax Helping</h3>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+									<h3>Bus</h3>
+									<p>Time Estimation <br>
+										Cost <br>
+										Bus Schedules <br>
+										Places<br>
+									</p>
 								</div>
 							</div>
 						</div>
@@ -132,11 +155,15 @@
 
 								<div class="about-details">
 									<div class="pentagon-text">
-										<h1>B</h1>
+										<h1>T</h1>
 									</div>
 
-									<h3>Business Consulting</h3>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+									<h3>Train</h3>
+									<p>Time Estimation <br>
+										Cost <br>
+										Bus Schedules <br>
+										Places<br>
+									</p>
 								</div>
 							</div>
 						</div>
@@ -150,27 +177,30 @@
 
 								<div class="about-details">
 									<div class="pentagon-text">
-										<h1>F</h1>
+										<h1>T</h1>
 									</div>
 
-									<h3>Financial Consulting</h3>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+									<h3>Taxi</h3>
+									<p>Time Estimation <br>
+										Cost <br>
+										Places<br>
+									</p>
 								</div>
 							</div>
 						</div>
 
 					</div>
 				</div>
-			</section><!-- end of about section -->
+			</section><!-- end of compare section -->
 
 
-			<!-- service section starts here -->
+			<!-- trip plan starts here -->
 
-			<section class="service text-center" id="service">
+			<section class="service text-center" id="plan">
 				<div class="container">
 					<div class="row">
-						<h2>our services</h2>
-						<h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h4>
+						<h2>Plan Your Trip</h2>
+						<h4></h4>
 
 						<div class="col-md-3 col-sm-6">
 							<div class="single-service">
@@ -179,7 +209,7 @@
 										<img class="img-responsive" src="img/service1.png" alt="">
 									</div>
 								</div>
-								<h3>Consulting</h3>
+								<h3>Your Trips</h3>
 							</div>
 						</div>
 
@@ -190,7 +220,7 @@
 										<img class="img-responsive" src="img/service2.png" alt="">
 									</div>
 								</div>
-								<h3>Financial</h3>
+								<h3>Destinations</h3>
 							</div>
 						</div>
 
@@ -201,7 +231,7 @@
 										<img class="img-responsive" src="img/service3.png" alt="">
 									</div>
 								</div>
-								<h3>Tax Help</h3>
+								<h3>Activities</h3>
 							</div>
 						</div>
 
@@ -212,98 +242,12 @@
 										<img class="img-responsive" src="img/service4.png" alt="">
 									</div>
 								</div>
-								<h3>Money</h3>
+								<h3>Expenses</h3>
 							</div>
 						</div>
 					</div>
 				</div>
-			</section><!-- end of service section -->
-
-
-			<!-- team section -->
-
-			<section class="team" id="team">
-				<div class="container">
-					<div class="row">
-						<div class="team-heading text-center">
-							<h2>our team</h2>
-
-							<h4>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled</h4>
-						</div>
-
-						<div class="col-md-2 single-member col-sm-4">
-							<div class="person">
-								<img class="img-responsive" src="img/item1.jpg" alt="member-1">
-							</div>
-
-							<div class="person-detail">
-								<div class="arrow-bottom"></div>
-								<h3>Mr. Graham</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-							</div>
-						
-						</div>
-
-						<div class="col-md-2 single-member col-sm-4">
-
-							<div class="person-detail">
-								<div class="arrow-top"></div>
-								<h3>Mr. David</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-							</div>
-							<div class="person">
-								<img class="img-responsive" src="img/item2.jpg" alt="member-2">
-							</div>
-						</div>
-						<div class="col-md-2 single-member col-sm-4">
-							<div class="person">
-								<img class="img-responsive" src="img/item3.jpg" alt="member-3">
-							</div>
-							<div class="person-detail">
-								<div class="arrow-bottom"></div>
-								<h3>Mr. Hovid</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-							</div>
-						</div>
-
-						<div class="col-md-2 single-member col-sm-4">
-							<div class="person-detail">
-								<div class="arrow-top"></div>
-								<h3>Mr Jasak</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-							</div>
-							<div class="person">
-								<img class="img-responsive" src="img/item4.jpg" alt="member-4">
-							</div>
-						</div>
-
-						<div class="col-md-2 single-member col-sm-4">
-							<div class="person">
-								<img class="img-responsive" src="img/item5.jpg" alt="member-5">
-							</div>
-
-							<div class="person-detail">
-								<div class="arrow-bottom"></div>
-								<h3>Mr. Joy Ka</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-							</div>
-						</div>
-
-						<div class="col-md-2 single-member col-sm-4">
-
-							<div class="person-detail">
-								<div class="arrow-top"></div>
-								<h3>Mr. Mikari</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-							</div>
-							<div class="person">
-								<img class="img-responsive" src="img/item6.jpg" alt="member-5">
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</section><!-- end of team section -->
+			</section><!-- end of trip plan section -->
 
 			<!-- map section -->
 			<section class="api-map" id="contact">
@@ -326,11 +270,10 @@
 								<div class="col-md-5 contact-info text-left">
 									<h3>contact information</h3>
 									<div class="info-detail">
-										<ul><li><i class="fa fa-calendar"></i><span>Monday - Friday:</span> 9:30 AM to 6:30 PM</li></ul>
-										<ul><li><i class="fa fa-map-marker"></i><span>Address:</span> 123 Some Street , California, US, CP 123</li></ul>
-										<ul><li><i class="fa fa-phone"></i><span>Phone:</span> (01) 999-1235</li></ul>
-										<ul><li><i class="fa fa-fax"></i><span>Fax:</span> (01) 999-1234</li></ul>
-										<ul><li><i class="fa fa-envelope"></i><span>Email:</span> info@domain.com</li></ul>
+										<ul><li><i class="fa fa-map-marker"></i><span>Address:</span> 1/1, Thalahena, Malabe</li></ul>
+										<ul><li><i class="fa fa-phone"></i><span>Phone:</span> +94112230835</li></ul>
+										<ul><li><i class="fa fa-fax"></i><span>Fax:</span> +94112230835</li></ul>
+										<ul><li><i class="fa fa-envelope"></i><span>Email:</span> TransitAdvisor@gmail.com</li></ul>
 									</div>
 								</div>
 
@@ -358,7 +301,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-6 footer-para">
-							<p>&copy; <a href="https://www.freshdesignweb.com">freshDesignweb.com</a> All right reserved</p>
+							<p>TransitAdvisor. All right reserved</p>
 						</div>
 
 						<div class="col-xs-6 text-right">
@@ -371,6 +314,11 @@
 			</footer>
 
 
+
+	
+
+	<!-- script tags
+	============================================================= -->
 	<script src="js/jquery-2.1.1.js"></script>
 	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 	<script src="js/gmaps.js"></script>
